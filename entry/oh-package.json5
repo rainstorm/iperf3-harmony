@@ -1,0 +1,11 @@
+{
+  "name": "entry",
+  "version": "1.0.0",
+  "description": "iperf3 HarmonyOS entry module: libiperf_napi.so native module + iperf3 speed-test UI (merged from iperf3-harmony-ui).",
+  "main": "",
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {
+    "libiperf_napi.so": "file:./src/main/cpp/types/libiperf_napi"
+  }
+}

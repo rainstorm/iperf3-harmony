@@ -1,0 +1,27 @@
+/node_modules
+/oh_modules
+/local.properties
+/.idea
+**/build
+/.hvigor
+.cxx
+/.clangd
+/.clang-format
+/.clang-tidy
+**/.test
+/.appanalyzer
+
+# 本地签名材料（密钥不入库）
+/signing/
+
+# 本地辅助目录
+/store/
+/copyright/
+/.local/
+
+# ohpm 安装产物（克隆后 ohpm install 自动生成）
+/entry/oh_modules/
+*.log
+
+# 本地构建产物（二进制走 GitHub Releases，不入库）
+/dist/

@@ -1,0 +1,13 @@
+{
+  "name": "iperf3-harmony",
+  "version": "1.0.0",
+  "description": "iperf3 (ESnet, BSD-3) native port for HarmonyOS NEXT: libiperf compiled as libiperf_napi.so plus NAPI bridge. UI layer lives in the separate iperf3-harmony-ui project.",
+  "main": "",
+  "author": "",
+  "license": "BSD-3-Clause",
+  "dependencies": {},
+  // KNOWN LIMITATION: this project has never been built on this machine (no
+  // DevEco Studio / OHOS NDK installed). Build verification must happen on a
+  // machine with the HarmonyOS toolchain.
+  "modelVersion": "5.0.0"
+}

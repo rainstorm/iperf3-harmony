@@ -1,0 +1,6 @@
+{
+  "name": "libiperf_napi.so",
+  "types": "./index.d.ts",
+  "version": "",
+  "tag": ""
+}

@@ -1,0 +1,36 @@
+{
+  "app": {
+    "products": [
+      {
+        "name": "default",
+        // compileSdkVersion intentionally omitted: DevEco Studio 26 builds with
+        // its built-in SDK (26.0.0) by default; explicit values are rejected.
+        "compatibleSdkVersion": "5.0.0(12)",
+        "targetSdkVersion": "5.0.0(12)",
+        "runtimeOS": "HarmonyOS"
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug"
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}

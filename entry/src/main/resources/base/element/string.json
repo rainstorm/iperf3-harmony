@@ -1,0 +1,16 @@
+{
+  "string": [
+    {
+      "name": "module_desc",
+      "value": "iperf3 测速主模块"
+    },
+    {
+      "name": "EntryAbility_desc",
+      "value": "iperf3 测速入口 Ability"
+    },
+    {
+      "name": "EntryAbility_label",
+      "value": "iperf3测速"
+    }
+  ]
+}

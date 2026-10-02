@@ -1,0 +1,12 @@
+{
+  "modelVersion": "5.0.0",
+  "dependencies": {},
+  "execution": {
+    // "analyze": "normal"              /* normal or strict */
+  },
+  "logging": {},
+  "debugging": {
+    // "stacktrace": true
+  },
+  "nodeOptions": {}
+}
